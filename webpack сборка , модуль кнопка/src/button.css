@@ -1,0 +1,9 @@
+.btn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: cornflowerblue;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}

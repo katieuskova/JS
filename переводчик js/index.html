@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Переводчик</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="main__container">
+    <section class="text__section original__text">
+      <h1>Введите текст</h1>
+      <input type="text" class="text__input">
+      <div class="select">
+        <select class="lang__select original__lang">
+          <option value="ru">русский</option>
+          <option value="en">английский</option>
+          <option value="es">испанский</option>
+        </select>
+
+        <select class="lang__select lang__to-translate">
+          <option value="ru">русский </option>
+          <option value="en" selected> английский</option>
+          <option value="es">испанский</option>
+        </select>
+      </div>
+      <button type="button" class="btn__translate">Перевести</button>
+    </section>
+    <section class="text__section">
+      <h1>Перевод</h1>
+      <div class="translated__text">
+      </div>
+    </section>
+
+  </main>
+  <script src="common.js"></script>
+</body>
+
+</html>

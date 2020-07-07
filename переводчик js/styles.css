@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.main__container {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.text__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__input {
+    width: 300px;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.select {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.btn__translate {
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.lang__select {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.translated__text {
+    background-color: white;
+    width: 316px;
+    height: 178px;
+    border: 1px solid grey;
+    font-size: 20px;
+    border-radius: 3px;
+}

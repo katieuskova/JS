@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    font-size: 20px;
+}
+
+.main__container{
+    margin: 20px;
+}
+.title{
+    text-align: center;
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    background-color: steelblue;
+    color: white;
+}
+.btn:disabled{
+    background-color: blue;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+}
