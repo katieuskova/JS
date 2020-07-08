@@ -1,0 +1,53 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.checked {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.new__comment{
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    border: 1px solid lightblue;
+    border-bottom: none;
+}
+
+.text {
+    border: 1px solid lightblue;
+    padding-bottom: 80px;
+}
+.comment__item {
+    margin-bottom: 10px;
+}
+
+.comment__name{
+    color: lightskyblue;
+}
+
+.comment__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.comment__time {
+    font-size: 13px;
+    color: grey;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.title{
+    margin: 0;
+    padding-bottom: 20px;
+}
